@@ -88,8 +88,9 @@ body {
 .footer-icons {
     height: 50px;
     width: 50px;
-    
+
 }
+
 .main-footer {
     background-image: url(imgs/badSunsCover.jpeg);
     color: white;
@@ -112,4 +113,42 @@ body {
 
 .fab {
     color: white;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    cursor: pointer;
+
+}
+
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #D82E2E;
+    background-color: rgb(255, 255, 255, .1);
+    border-radius: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1.5em;
+}
+
+.btn-header:hover {
+    background-color: rgb(255, 255, 255, .3);
+    color: #D82E2E;
+}
+
+.btn-play {
+    margin: 0 auto;
+    display: block;
+    color:#D82E2E;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    height: 100px;
+    width: 100px;
 }
