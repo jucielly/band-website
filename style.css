@@ -1,4 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-image: url(imgs/badSunsCover.jpeg);
+    /*background-size: cover;  server para setar a imagem como cover,desabilitei pq a imagem em questão estava melhor sem*/
+    background-color: rgb(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    padding-bottom: 45px;
+    margin-top: auto;
+}
+
+.nav ul {
+    margin-top: 0;
+}
+
+.nav li {
+    display: inline;
+    padding: 80px;
+}
+
+.nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.nav a:hover {
+    color: #D82E2E;
+    background-color: rgb(255, 255, 255, .3);
+}
+
+.main-nav {
+    text-align: center;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(255, 255, 255, .3);
+}
+
+.band-name {
+    text-align: center;
+    font-family: 'Kranky', cursive;
+    margin: 0;
+    font-size: 4em;
+    color: white;
+    font-weight: normal;
+}
+
+.band-name-large {
+    font-size: 9em;
+}
+
+.content-section {
+    margin: 1em;
+    padding: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+    font-family: 'Kranky', cursive;
+    font-size: 2.9em;
+    color: #222222;
+}
+
+.about-band-image {
+    float: left;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
 .footer-icons {
     height: 50px;
     width: 50px;
+    
+}
+.main-footer {
+    background-image: url(imgs/badSunsCover.jpeg);
+    color: white;
+    padding: 2.5em;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0.5em;
+}
+
+.fab {
+    color: white;
 }
