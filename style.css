@@ -152,3 +152,49 @@ body {
     height: 100px;
     width: 100px;
 }
+
+.tour-row {
+    border-bottom: 1px solid #777;
+    padding-bottom: 1em;
+    margin: 1em;
+}
+
+.tour-row:last-child {
+    border-bottom: unset;
+}
+
+.tour-item {
+    padding-right: 1em;
+    margin: 1em;
+    display: inline-block;
+}
+
+.tour-date {
+    font-weight: bold;
+    color: #555;
+    width: 11%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 24%;
+}
+
+.tour-btn {
+    max-width: 24%;
+}
+
+.btn-primary {
+    color: white;
+    background-color:#D82E2E ;
+    border: 2px solid #D82E2E;
+    border-radius:  3px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #B12626;
+}
